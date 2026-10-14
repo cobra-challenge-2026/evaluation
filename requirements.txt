@@ -1,0 +1,7 @@
+SimpleITK
+numpy
+psutil
+scikit-image
+scikit-learn
+transformers
+gdown

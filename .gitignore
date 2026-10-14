@@ -1,0 +1,24 @@
+# Model weights (downloaded with pre_download/download_models.py, never committed)
+pre_download/model_weights/
+*.pth
+*.safetensors
+
+# Saved docker images and archives (e.g. from do_save.sh, ground-truth tarball)
+*.tar
+*.tar.gz
+
+# Ground truth and test data
+ground_truth/
+test/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.ipynb
+
+# Local tooling
+.claude/
+.vscode/
+.idea/
+.DS_Store
